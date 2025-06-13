@@ -6,6 +6,7 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import { resolve } from 'path'
 
 export default defineConfig({
+  base: '/sales/',  // GitHub Pages 部署路径
   plugins: [
     vue(),
     AutoImport({
